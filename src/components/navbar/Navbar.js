@@ -28,14 +28,14 @@ const Navbar = () => {
 
 
     return (
-        <nav className={scrolled ? 'navbar_container_light' : 'navbar_container'} >
+        <nav className={scrolled ? 'navbar_container_light shadow' : 'navbar_container'} >
             <div className="max-w-screen-xl mx-auto my-0 ">
                <div className="flex justify-between items-center">
                     <div className="">
                         {
                             scrolled ? 
-                            <img src={LOGO_DARK} alt="" className='w-24' />:
-                            <img src={LOGO_LIGHT} alt="" className='w-24' />
+                            <img src={LOGO_DARK} alt="" className='w-28' />:
+                            <img src={LOGO_LIGHT} alt="" className='w-28' />
                         }
                     </div>
                     <div className="">
