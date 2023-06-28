@@ -11,13 +11,15 @@ import Footer from './components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from './components/navbar/Navbar';
+import Slider from './components/Slider';
 AOS.init();
 
 const App = () => {
     return (
         <div>
             <Navbar />
-            <Header />
+            {/* <Header /> */}
+            <Slider />
 
             <div className="max-w-screen-xl mx-auto my-0" >
                 <GooglePartner  />

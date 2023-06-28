@@ -59,7 +59,10 @@ body{
 
 
 .bg_video_container{
+        width: 100%;
+        height: 100%;
         position: relative;
+        background-color: #fff;
 }
 
 .bg_video{
